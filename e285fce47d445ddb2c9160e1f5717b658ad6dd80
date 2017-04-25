@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa201ad_530fb6e1",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 71,
+      "author": {
+        "id": 113
+      },
+      "writtenOn": "2017-04-25T15:06:48Z",
+      "side": 1,
+      "message": "This needs to be python3-openvswitch",
+      "range": {
+        "startLine": 71,
+        "startChar": 0,
+        "endLine": 71,
+        "endChar": 30
+      },
+      "revId": "e285fce47d445ddb2c9160e1f5717b658ad6dd80",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
