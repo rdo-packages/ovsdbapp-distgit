@@ -25,6 +25,30 @@
     },
     {
       "key": {
+        "uuid": "baa201ad_13d0ce52",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 14,
+      "author": {
+        "id": 290
+      },
+      "writtenOn": "2017-04-25T14:22:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa201ad_d3b8062d",
+      "range": {
+        "startLine": 14,
+        "startChar": 12,
+        "endLine": 14,
+        "endChar": 17
+      },
+      "revId": "5616681dd8c35232f953f2e82fb248bed62be439",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa201ad_f3b50a32",
         "filename": "python-ovsdbapp.spec",
         "patchSetId": 1
@@ -42,6 +66,24 @@
     },
     {
       "key": {
+        "uuid": "baa201ad_33d5d243",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 290
+      },
+      "writtenOn": "2017-04-25T14:22:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa201ad_f3b50a32",
+      "revId": "5616681dd8c35232f953f2e82fb248bed62be439",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa201ad_d38f2674",
         "filename": "python-ovsdbapp.spec",
         "patchSetId": 1
@@ -53,6 +95,30 @@
       "writtenOn": "2017-04-25T14:04:40Z",
       "side": 1,
       "message": "Duplicate BuildRequires (they are common for the entire spec), you can remove this line.",
+      "range": {
+        "startLine": 78,
+        "startChar": 0,
+        "endLine": 78,
+        "endChar": 19
+      },
+      "revId": "5616681dd8c35232f953f2e82fb248bed62be439",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_73cf5ab1",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 78,
+      "author": {
+        "id": 290
+      },
+      "writtenOn": "2017-04-25T14:22:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa201ad_d38f2674",
       "range": {
         "startLine": 78,
         "startChar": 0,
@@ -88,6 +154,30 @@
     },
     {
       "key": {
+        "uuid": "baa201ad_93c3de89",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 81,
+      "author": {
+        "id": 290
+      },
+      "writtenOn": "2017-04-25T14:22:02Z",
+      "side": 1,
+      "message": "Ah, didn\u0027t exist F25 so I was confused. Doesn\u0027t appear to exist in RHEL yet either.\n\nDone.",
+      "parentUuid": "baa201ad_b392a29d",
+      "range": {
+        "startLine": 81,
+        "startChar": 16,
+        "endLine": 81,
+        "endChar": 34
+      },
+      "revId": "5616681dd8c35232f953f2e82fb248bed62be439",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
         "uuid": "baa201ad_f38c2a82",
         "filename": "python-ovsdbapp.spec",
         "patchSetId": 1
@@ -99,6 +189,30 @@
       "writtenOn": "2017-04-25T14:04:40Z",
       "side": 1,
       "message": "nitpick, could you align it?",
+      "range": {
+        "startLine": 91,
+        "startChar": 1,
+        "endLine": 93,
+        "endChar": 33
+      },
+      "revId": "5616681dd8c35232f953f2e82fb248bed62be439",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_b3c0e27d",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 290
+      },
+      "writtenOn": "2017-04-25T14:22:02Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "baa201ad_f38c2a82",
       "range": {
         "startLine": 91,
         "startChar": 1,
