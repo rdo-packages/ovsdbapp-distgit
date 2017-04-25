@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa201ad_338dd232",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 172
+      },
+      "writtenOn": "2017-04-25T15:59:42Z",
+      "side": 1,
+      "message": "Is this needed just to remove times.dbm or what the file is?",
+      "range": {
+        "startLine": 131,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 22
+      },
+      "revId": "bf8a10fc5ee167ac2b670bc233171b5d38973cbc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
