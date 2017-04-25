@@ -22,6 +22,30 @@
       "revId": "bf8a10fc5ee167ac2b670bc233171b5d38973cbc",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_93c91e5d",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 4
+      },
+      "lineNbr": 131,
+      "author": {
+        "id": 290
+      },
+      "writtenOn": "2017-04-25T16:21:46Z",
+      "side": 1,
+      "message": "Probably? It was in the example and I left it.",
+      "parentUuid": "baa201ad_338dd232",
+      "range": {
+        "startLine": 131,
+        "startChar": 0,
+        "endLine": 131,
+        "endChar": 22
+      },
+      "revId": "bf8a10fc5ee167ac2b670bc233171b5d38973cbc",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
