@@ -1,0 +1,107 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "baa201ad_93e67e15",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 53,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2017-04-25T15:26:04Z",
+      "side": 1,
+      "message": "leftover from example.spec ?",
+      "range": {
+        "startLine": 53,
+        "startChar": 26,
+        "endLine": 53,
+        "endChar": 33
+      },
+      "revId": "0095e1730fb7d189b195d7bdf92211e1b0c080c9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_b3e38204",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 97,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2017-04-25T15:26:04Z",
+      "side": 1,
+      "message": "ditto",
+      "range": {
+        "startLine": 97,
+        "startChar": 26,
+        "endLine": 97,
+        "endChar": 33
+      },
+      "revId": "0095e1730fb7d189b195d7bdf92211e1b0c080c9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_d3f006cc",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 109,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2017-04-25T15:26:04Z",
+      "side": 1,
+      "message": "typo, probably from example.spec",
+      "range": {
+        "startLine": 109,
+        "startChar": 28,
+        "endLine": 109,
+        "endChar": 38
+      },
+      "revId": "0095e1730fb7d189b195d7bdf92211e1b0c080c9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_13ba8ee1",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 143,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2017-04-25T15:26:04Z",
+      "side": 1,
+      "message": "-tests requires base package so %license is not needed\nhttps://fedoraproject.org/wiki/Packaging:LicensingGuidelines#Subpackage_Licensing",
+      "revId": "0095e1730fb7d189b195d7bdf92211e1b0c080c9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "baa201ad_33bf92d2",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 3
+      },
+      "lineNbr": 158,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2017-04-25T15:26:04Z",
+      "side": 1,
+      "message": "-tests requires base package so %license is not needed\nhttps://fedoraproject.org/wiki/Packaging:LicensingGuidelines#Subpackage_Licensing",
+      "revId": "0095e1730fb7d189b195d7bdf92211e1b0c080c9",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
