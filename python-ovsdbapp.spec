@@ -23,8 +23,11 @@ BuildArch:  noarch
 
 %package -n python2-%{library}
 Summary:    Python OVSDB Application Library
+Requires:   python-fixtures
+Requires:   python-netaddr
 Requires:   python-openvswitch
 Requires:   python-pbr
+Requires:   python-six
 %{?python_provide:%python_provide python2-%{library}}
 
 BuildRequires:  python2-devel
@@ -32,6 +35,7 @@ BuildRequires:  python-pbr
 BuildRequires:  python-setuptools
 BuildRequires:  git
 BuildRequires:  python-mock
+BuildRequires:  python-netaddr
 BuildRequires:  python-openvswitch
 BuildRequires:  python-oslotest
 BuildRequires:  python-testrepository
@@ -67,14 +71,18 @@ This package contains Python OVSDB Application Library test files.
 %if 0%{?with_python3}
 %package -n python3-%{library}
 Summary:    Python OVSDB Application Library
+Requires:   python3-fixtures
+Requires:   python3-netaddr
 Requires:   python3-openvswitch
 Requires:   python3-pbr
+Requires:   python3-six
 %{?python_provide:%python_provide python3-%{library}}
 
 BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-mock
+BuildRequires:  python3-netaddr
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-openvswitch
 BuildRequires:  python3-testrepository
