@@ -86,6 +86,7 @@ BuildRequires:  python3-netaddr
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-openvswitch
 BuildRequires:  python3-testrepository
+BuildRequires:  openstack-macros
 
 %description -n python3-%{library}
 Python OVSDB Application Library.
@@ -114,7 +115,7 @@ Python OVSDB Application Library.
 %autosetup -n %{library}-%{upstream_version} -S git
 
 # Let's handle dependencies ourselves
-rm -f *requirements.txt
+%py_req_cleanup
 
 %build
 %py2_build
