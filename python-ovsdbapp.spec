@@ -10,6 +10,13 @@
 %global library ovsdbapp
 %global module ovsdbapp
 
+%global common_desc \
+A library for writing Open vSwitch OVSDB-based applications.
+
+%global common_desc_tests \
+Python OVSDB Application Library tests. \
+This package contains Python OVSDB Application Library test files.
+
 Name:       python-%{library}
 Version:    XXX
 Release:    XXX
@@ -43,7 +50,7 @@ BuildRequires:  python-oslotest
 BuildRequires:  python-testrepository
 
 %description -n python2-%{library}
-A library for writing Open vSwitch OVSDB-based applications.
+%{common_desc}
 
 
 %package -n python2-%{library}-tests
@@ -54,9 +61,7 @@ Requires:  python-oslotest
 Requires:  python-testrepository
 
 %description -n python2-%{library}-tests
-Python OVSDB Application Library tests.
-
-This package contains Python OVSDB Application Library test files.
+%{common_desc_tests}
 
 # NOTE(twilson) the project needs documentation
 #%package -n python-%{library}-doc
@@ -90,7 +95,7 @@ BuildRequires:  python3-openvswitch
 BuildRequires:  python3-testrepository
 
 %description -n python3-%{library}
-Python OVSDB Application Library.
+%{common_desc}
 
 
 %package -n python3-%{library}-tests
@@ -101,15 +106,13 @@ Requires:   python3-oslotest
 Requires:   python3-testrepository
 
 %description -n python3-%{library}-tests
-Python OVSDB Application Library tests.
-
-This package contains Python OVSDB Application Library test files.
+%{common_desc_tests}
 
 %endif # with_python3
 
 
 %description
-Python OVSDB Application Library.
+%{common_desc}
 
 
 %prep
