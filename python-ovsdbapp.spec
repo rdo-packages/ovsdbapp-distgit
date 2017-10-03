@@ -10,6 +10,11 @@
 %global library ovsdbapp
 %global module ovsdbapp
 
+%global common_desc \
+Python OVSDB Application Library tests. \
+ \
+This package contains Python OVSDB Application Library test files.
+
 Name:       python-%{library}
 Version:    XXX
 Release:    XXX
@@ -52,9 +57,7 @@ Requires:  python-oslotest
 Requires:  python-testrepository
 
 %description -n python2-%{library}-tests
-Python OVSDB Application Library tests.
-
-This package contains Python OVSDB Application Library test files.
+%{common_desc}
 
 # NOTE(twilson) the project needs documentation
 #%package -n python-%{library}-doc
@@ -99,9 +102,7 @@ Requires:   python3-oslotest
 Requires:   python3-testrepository
 
 %description -n python3-%{library}-tests
-Python OVSDB Application Library tests.
-
-This package contains Python OVSDB Application Library test files.
+%{common_desc}
 
 %endif # with_python3
 
