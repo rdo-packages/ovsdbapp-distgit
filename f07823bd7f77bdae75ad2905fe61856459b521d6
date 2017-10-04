@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "fa81d914_f45405cc",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 13,
+      "author": {
+        "id": 424
+      },
+      "writtenOn": "2017-10-04T19:42:54Z",
+      "side": 1,
+      "message": "I think maybe change this to common_desc_tests",
+      "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
