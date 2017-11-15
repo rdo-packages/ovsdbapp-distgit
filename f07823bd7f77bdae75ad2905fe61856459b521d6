@@ -16,6 +16,138 @@
       "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_3e091d96",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-11-15T09:54:03Z",
+      "side": 1,
+      "message": "%global common_desc /\nIt is a library for writing Open vSwitch OVSDB-based applications.",
+      "range": {
+        "startLine": 13,
+        "startChar": 0,
+        "endLine": 15,
+        "endChar": 66
+      },
+      "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_9ef7698c",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 48,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-11-15T09:54:03Z",
+      "side": 1,
+      "message": "%{common_desc}",
+      "range": {
+        "startLine": 48,
+        "startChar": 0,
+        "endLine": 48,
+        "endChar": 60
+      },
+      "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_feeea5b3",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 60,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-11-15T09:54:03Z",
+      "side": 1,
+      "message": "add this also \"This package contains Python OVSDB Application Library test files.\"",
+      "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_1e2b79ec",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 93,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-11-15T09:54:03Z",
+      "side": 1,
+      "message": "%{common_desc}",
+      "range": {
+        "startLine": 93,
+        "startChar": 0,
+        "endLine": 93,
+        "endChar": 33
+      },
+      "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_5e35f144",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 104,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-11-15T09:54:03Z",
+      "side": 1,
+      "message": "ditto with test subpackages.",
+      "range": {
+        "startLine": 104,
+        "startChar": 0,
+        "endLine": 104,
+        "endChar": 14
+      },
+      "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "da86d52c_3e303d56",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 110,
+      "author": {
+        "id": 111
+      },
+      "writtenOn": "2017-11-15T09:54:03Z",
+      "side": 1,
+      "message": "%{common_desc}",
+      "range": {
+        "startLine": 110,
+        "startChar": 0,
+        "endLine": 110,
+        "endChar": 33
+      },
+      "revId": "f07823bd7f77bdae75ad2905fe61856459b521d6",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
