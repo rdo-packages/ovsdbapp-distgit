@@ -11,7 +11,7 @@
 %global module ovsdbapp
 
 Name:       python-%{library}
-Version:    0.4.0
+Version:    0.4.1
 Release:    1%{?dist}
 Summary:    Python OVSDB Application Library
 License:    ASL 2.0
@@ -165,6 +165,9 @@ OS_TEST_PATH=./ovsdbapp/tests/unit %{__python2} setup.py test
 %endif # with_python3
 
 %changelog
+* Thu Nov 23 2017 RDO <dev@lists.rdoproject.org> 0.4.1-1
+- Update to 0.4.1
+
 * Mon Aug 14 2017 Alfredo Moralejo <amoralej@redhat.com> 0.4.0-1
 - Update to 0.4.0
 
