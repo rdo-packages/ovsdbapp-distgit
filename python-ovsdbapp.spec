@@ -21,6 +21,9 @@ Source0:    http://tarballs.openstack.org/%{library}/%{library}-%{upstream_versi
 
 BuildArch:  noarch
 
+BuildRequires:  git
+BuildRequires:  openstack-macros
+
 %package -n python2-%{library}
 Summary:    Python OVSDB Application Library
 Requires:   python-fixtures
@@ -33,7 +36,6 @@ Requires:   python-six
 BuildRequires:  python2-devel
 BuildRequires:  python-pbr
 BuildRequires:  python-setuptools
-BuildRequires:  git
 BuildRequires:  python-mock
 BuildRequires:  python-netaddr
 BuildRequires:  python-openvswitch
@@ -86,7 +88,6 @@ BuildRequires:  python3-netaddr
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-openvswitch
 BuildRequires:  python3-testrepository
-BuildRequires:  openstack-macros
 
 %description -n python3-%{library}
 Python OVSDB Application Library.
