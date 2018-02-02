@@ -33,21 +33,30 @@ BuildRequires:  openstack-macros
 
 %package -n python2-%{library}
 Summary:    Python OVSDB Application Library
-Requires:   python-fixtures
+Requires:   python2-fixtures
+Requires:   python2-openvswitch
+Requires:   python2-pbr
+Requires:   python2-six
+%if 0%{?fedora} > 0
+Requires:   python2-netaddr
+%else
 Requires:   python-netaddr
-Requires:   python-openvswitch
-Requires:   python-pbr
-Requires:   python-six
+%endif
 %{?python_provide:%python_provide python2-%{library}}
 
 BuildRequires:  python2-devel
-BuildRequires:  python-pbr
-BuildRequires:  python-setuptools
-BuildRequires:  python-mock
+BuildRequires:  python2-pbr
+BuildRequires:  python2-setuptools
+BuildRequires:  python2-mock
+BuildRequires:  python2-openvswitch
+BuildRequires:  python2-oslotest
+%if 0%{?fedora} > 0
+BuildRequires:  python2-netaddr
+BuildRequires:  python2-testrepository
+%else
 BuildRequires:  python-netaddr
-BuildRequires:  python-openvswitch
-BuildRequires:  python-oslotest
 BuildRequires:  python-testrepository
+%endif
 
 %description -n python2-%{library}
 %{common_desc}
@@ -56,9 +65,13 @@ BuildRequires:  python-testrepository
 %package -n python2-%{library}-tests
 Summary:   Python OVSDB Application Library Tests
 Requires:  python2-%{library} = %{version}-%{release}
-Requires:  python-mock
-Requires:  python-oslotest
+Requires:  python2-mock
+Requires:  python2-oslotest
+%if 0%{?fedora} > 0
+Requires:  python2-testrepository
+%else
 Requires:  python-testrepository
+%endif
 
 %description -n python2-%{library}-tests
 %{common_desc_tests}
@@ -67,8 +80,8 @@ Requires:  python-testrepository
 #%package -n python-%{library}-doc
 #Summary:    Python OVSDB Application Library documentation
 #
-#BuildRequires: python-sphinx
-#BuildRequires: python-oslo-sphinx
+#BuildRequires: python2-sphinx
+#BuildRequires: python2-oslo-sphinx
 #
 #%description -n python-%{library}-doc
 #Python OVSDB Application Library.
