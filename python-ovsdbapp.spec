@@ -37,6 +37,7 @@ Requires:   python2-fixtures
 Requires:   python2-openvswitch
 Requires:   python2-pbr
 Requires:   python2-six
+Requires:   python2-oslo-utils >= 3.33.0
 %if 0%{?fedora} > 0
 Requires:   python2-netaddr
 %else
@@ -50,6 +51,7 @@ BuildRequires:  python2-setuptools
 BuildRequires:  python2-mock
 BuildRequires:  python2-openvswitch
 BuildRequires:  python2-oslotest
+BuildRequires:  python2-stestr
 %if 0%{?fedora} > 0
 BuildRequires:  python2-netaddr
 BuildRequires:  python2-testrepository
@@ -96,6 +98,7 @@ Requires:   python3-netaddr
 Requires:   python3-openvswitch
 Requires:   python3-pbr
 Requires:   python3-six
+Requires:   python3-oslo-utils >= 3.33.0
 %{?python_provide:%python_provide python3-%{library}}
 
 BuildRequires:  python3-devel
@@ -105,6 +108,7 @@ BuildRequires:  python3-mock
 BuildRequires:  python3-netaddr
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-openvswitch
+BuildRequires:  python3-stestr
 BuildRequires:  python3-testrepository
 
 %description -n python3-%{library}
@@ -117,6 +121,7 @@ Requires:   python3-%{library} = %{version}-%{release}
 Requires:   python3-mock
 Requires:   python3-oslotest
 Requires:   python3-testrepository
+Requires:   python3-stestr
 
 %description -n python3-%{library}-tests
 %{common_desc_tests}
@@ -153,10 +158,10 @@ Requires:   python3-testrepository
 
 %check
 %if 0%{?with_python3}
-OS_TEST_PATH=./ovsdbapp/tests/unit %{__python3} setup.py test
+OS_TEST_PATH=./ovsdbapp/tests/unit stestr-3 run
 rm -rf .testrepository
 %endif
-OS_TEST_PATH=./ovsdbapp/tests/unit %{__python2} setup.py test
+OS_TEST_PATH=./ovsdbapp/tests/unit stestr-2 run
 
 %files -n python2-%{library}
 %license LICENSE
