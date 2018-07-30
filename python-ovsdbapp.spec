@@ -188,3 +188,4 @@ OS_TEST_PATH=./ovsdbapp/tests/unit stestr-2 run
 %endif # with_python3
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/ovsdbapp/commit/?id=90dfca5dfc60e48544ff25f63c3fa59cb88fc521
