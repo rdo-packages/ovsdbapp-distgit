@@ -19,7 +19,7 @@ This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
 Version:    0.12.1
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Python OVSDB Application Library
 License:    ASL 2.0
 URL:        http://launchpad.net/%{library}/
@@ -37,7 +37,6 @@ Requires:   python2-fixtures
 Requires:   python2-openvswitch
 Requires:   python2-pbr
 Requires:   python2-six
-Requires:   python2-oslo-utils >= 3.33.0
 %if 0%{?fedora} > 0
 Requires:   python2-netaddr
 %else
@@ -98,7 +97,6 @@ Requires:   python3-netaddr
 Requires:   python3-openvswitch
 Requires:   python3-pbr
 Requires:   python3-six
-Requires:   python3-oslo-utils >= 3.33.0
 %{?python_provide:%python_provide python3-%{library}}
 
 BuildRequires:  python3-devel
