@@ -69,13 +69,14 @@ Requires:  python%{pyver}-testrepository
 %{common_desc_tests}
 
 # NOTE(twilson) the project needs documentation
-#%package -n python-%{library}-doc
+#%package -n python%{pyver}-%{library}-doc
 #Summary:    Python OVSDB Application Library documentation
+%{?python_provide:%python_provide python%{pyver}-%{library}-doc}
 #
 #BuildRequires: python%{pyver}-sphinx
 #BuildRequires: python%{pyver}-oslo-sphinx
 #
-#%description -n python-%{library}-doc
+#%description -n python%{pyver}-%{library}-doc
 #Python OVSDB Application Library.
 #
 #This package contains the documentation.
@@ -95,7 +96,7 @@ Requires:  python%{pyver}-testrepository
 
 # generate html docs
 #%{pyver_bin} setup.py build_sphinx
-# remove the sphinx-build-%{pyver} leftovers
+# remove the sphinx-build-%{pyver}-%{pyver} leftovers
 #rm -rf html/.{doctrees,buildinfo}
 
 %install
@@ -113,7 +114,7 @@ OS_TEST_PATH=./ovsdbapp/tests/unit stestr-%{pyver} run
 %files -n python%{pyver}-%{library}-tests
 %{pyver_sitelib}/%{module}/tests
 
-#%files -n python-%{library}-doc
+#%files -n python%{pyver}-%{library}-doc
 #%license LICENSE
 #%doc html README.rst
 
