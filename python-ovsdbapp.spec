@@ -38,7 +38,6 @@ BuildRequires:  openstack-macros
 %package -n python%{pyver}-%{library}
 Summary:    Python OVSDB Application Library
 %{?python_provide:%python_provide python%{pyver}-%{library}}
-Requires:   python%{pyver}-fixtures
 Requires:   python%{pyver}-openvswitch
 Requires:   python%{pyver}-pbr
 Requires:   python%{pyver}-six
@@ -61,6 +60,7 @@ BuildRequires:  python%{pyver}-testrepository
 %package -n python%{pyver}-%{library}-tests
 Summary:   Python OVSDB Application Library Tests
 Requires:  python%{pyver}-%{library} = %{version}-%{release}
+Requires:  python%{pyver}-fixtures
 Requires:  python%{pyver}-mock
 Requires:  python%{pyver}-oslotest
 Requires:  python%{pyver}-testrepository
