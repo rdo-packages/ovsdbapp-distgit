@@ -102,7 +102,7 @@ Requires:  python%{pyver}-testrepository
 %{pyver_install}
 
 %check
-OS_TEST_PATH=./ovsdbapp/tests/unit stestr-%{pyver} run
+PYTHON=%{pyver_bin} OS_TEST_PATH=./ovsdbapp/tests/unit stestr-%{pyver} run
 
 %files -n python%{pyver}-%{library}
 %license LICENSE
