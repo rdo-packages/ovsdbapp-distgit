@@ -39,8 +39,9 @@ Requires:   python2-pbr
 Requires:   python2-six
 %if 0%{?fedora} > 0
 Requires:   python2-netaddr
+Requires:   python2-netaddr >= 0.7.18
 %else
-Requires:   python-netaddr
+Requires:   python-netaddr >= 0.7.18
 %endif
 %{?python_provide:%python_provide python2-%{library}}
 
@@ -51,10 +52,10 @@ BuildRequires:  python2-mock
 BuildRequires:  python2-openvswitch
 BuildRequires:  python2-oslotest
 %if 0%{?fedora} > 0
-BuildRequires:  python2-netaddr
+BuildRequires:  python2-netaddr >= 0.7.18
 BuildRequires:  python2-testrepository
 %else
-BuildRequires:  python-netaddr
+BuildRequires:  python-netaddr >= 0.7.18
 BuildRequires:  python-testrepository
 %endif
 
@@ -92,7 +93,7 @@ Requires:  python-testrepository
 %package -n python3-%{library}
 Summary:    Python OVSDB Application Library
 Requires:   python3-fixtures
-Requires:   python3-netaddr
+Requires:   python3-netaddr >= 0.7.18
 Requires:   python3-openvswitch
 Requires:   python3-pbr
 Requires:   python3-six
@@ -102,7 +103,7 @@ BuildRequires:  python3-devel
 BuildRequires:  python3-pbr
 BuildRequires:  python3-setuptools
 BuildRequires:  python3-mock
-BuildRequires:  python3-netaddr
+BuildRequires:  python3-netaddr >= 0.7.18
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-openvswitch
 BuildRequires:  python3-testrepository
