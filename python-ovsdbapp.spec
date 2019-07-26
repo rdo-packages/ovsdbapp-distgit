@@ -41,7 +41,7 @@ Summary:    Python OVSDB Application Library
 Requires:   python%{pyver}-openvswitch
 Requires:   python%{pyver}-pbr
 Requires:   python%{pyver}-six
-Requires:   python%{pyver}-netaddr
+Requires:   python%{pyver}-netaddr >= 0.7.18
 
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-pbr
@@ -50,7 +50,7 @@ BuildRequires:  python%{pyver}-mock
 BuildRequires:  python%{pyver}-openvswitch
 BuildRequires:  python%{pyver}-oslotest
 BuildRequires:  python%{pyver}-stestr
-BuildRequires:  python%{pyver}-netaddr
+BuildRequires:  python%{pyver}-netaddr >= 0.7.18
 BuildRequires:  python%{pyver}-testrepository
 
 %description -n python%{pyver}-%{library}
