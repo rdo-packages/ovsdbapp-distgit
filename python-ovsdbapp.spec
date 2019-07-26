@@ -23,7 +23,7 @@ This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
 Version:    0.15.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Python OVSDB Application Library
 License:    ASL 2.0
 URL:        http://launchpad.net/%{library}/
@@ -41,7 +41,7 @@ Summary:    Python OVSDB Application Library
 Requires:   python%{pyver}-openvswitch
 Requires:   python%{pyver}-pbr
 Requires:   python%{pyver}-six
-Requires:   python%{pyver}-netaddr
+Requires:   python%{pyver}-netaddr >= 0.7.18
 
 BuildRequires:  python%{pyver}-devel
 BuildRequires:  python%{pyver}-pbr
@@ -50,7 +50,7 @@ BuildRequires:  python%{pyver}-mock
 BuildRequires:  python%{pyver}-openvswitch
 BuildRequires:  python%{pyver}-oslotest
 BuildRequires:  python%{pyver}-stestr
-BuildRequires:  python%{pyver}-netaddr
+BuildRequires:  python%{pyver}-netaddr >= 0.7.18
 BuildRequires:  python%{pyver}-testrepository
 
 %description -n python%{pyver}-%{library}
@@ -118,6 +118,7 @@ OS_TEST_PATH=./ovsdbapp/tests/unit stestr-%{pyver} run
 #%doc html README.rst
 
 %changelog
+* Tue Oct  1 2019 Specify netaddr version req 0.15.0-2 rhbz#1553268
 * Tue Mar 12 2019 RDO <dev@lists.rdoproject.org> 0.15.0-1
 - Update to 0.15.0
 
