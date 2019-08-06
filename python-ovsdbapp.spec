@@ -13,6 +13,7 @@
 
 %global library ovsdbapp
 %global module ovsdbapp
+%global with_doc 1
 
 %global common_desc \
 A library for writing Open vSwitch OVSDB-based applications.
@@ -68,6 +69,7 @@ Requires:  python%{pyver}-testrepository
 %description -n python%{pyver}-%{library}-tests
 %{common_desc_tests}
 
+%if 0%{?with_doc}
 # NOTE(twilson) the project needs documentation
 #%package -n python-%{library}-doc
 #Summary:    Python OVSDB Application Library documentation
@@ -79,6 +81,7 @@ Requires:  python%{pyver}-testrepository
 #Python OVSDB Application Library.
 #
 #This package contains the documentation.
+%endif
 
 %description
 %{common_desc}
@@ -93,10 +96,12 @@ Requires:  python%{pyver}-testrepository
 %build
 %{pyver_build}
 
+%if 0%{?with_doc}
 # generate html docs
 #%{pyver_bin} setup.py build_sphinx
 # remove the sphinx-build-%{pyver} leftovers
 #rm -rf html/.{doctrees,buildinfo}
+%endif
 
 %install
 %{pyver_install}
@@ -113,8 +118,10 @@ PYTHON=%{pyver_bin} OS_TEST_PATH=./ovsdbapp/tests/unit stestr-%{pyver} run
 %files -n python%{pyver}-%{library}-tests
 %{pyver_sitelib}/%{module}/tests
 
+%if 0%{?with_doc}
 #%files -n python-%{library}-doc
 #%license LICENSE
 #%doc html README.rst
+%endif
 
 %changelog
