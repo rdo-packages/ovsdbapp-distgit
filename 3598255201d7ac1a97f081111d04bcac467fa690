@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "ee3d2c92_cd85a421",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 403
+      },
+      "writtenOn": "2019-08-07T09:13:04Z",
+      "side": 1,
+      "message": "common_desc",
+      "range": {
+        "startLine": 80,
+        "startChar": 2,
+        "endLine": 80,
+        "endChar": 19
+      },
+      "revId": "3598255201d7ac1a97f081111d04bcac467fa690",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
