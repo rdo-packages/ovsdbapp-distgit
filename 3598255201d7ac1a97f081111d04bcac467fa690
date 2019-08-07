@@ -45,6 +45,30 @@
       "revId": "3598255201d7ac1a97f081111d04bcac467fa690",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "be272cc7_fd6cea69",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 2
+      },
+      "lineNbr": 80,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2019-08-07T09:22:24Z",
+      "side": 1,
+      "message": "oh, nice catch",
+      "parentUuid": "ee3d2c92_cd85a421",
+      "range": {
+        "startLine": 80,
+        "startChar": 2,
+        "endLine": 80,
+        "endChar": 19
+      },
+      "revId": "3598255201d7ac1a97f081111d04bcac467fa690",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
