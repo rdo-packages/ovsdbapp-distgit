@@ -22,6 +22,30 @@
       "revId": "c2e1a5e883dfeb67aa59c16531bc3525f79747b8",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
       "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "37d0eaee_d31c82d1",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 83,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2019-08-07T07:20:54Z",
+      "side": 1,
+      "message": "Yes, let\u0027s see if we can get the -doc subpackage in. Otherwise, let\u0027s let it uncommented and define with_doc to 0.",
+      "parentUuid": "dee5d153_7fc11a57",
+      "range": {
+        "startLine": 73,
+        "startChar": 0,
+        "endLine": 83,
+        "endChar": 41
+      },
+      "revId": "c2e1a5e883dfeb67aa59c16531bc3525f79747b8",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
     }
   ]
 }
