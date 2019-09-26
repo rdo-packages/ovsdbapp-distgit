@@ -125,3 +125,4 @@ PYTHON=%{pyver_bin} OS_TEST_PATH=./ovsdbapp/tests/unit stestr-%{pyver} run
 %endif
 
 %changelog
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/ovsdbapp/commit/?id=4310bd2a06ea60b48930bb7e94276365fcaeb4fc
