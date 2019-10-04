@@ -74,6 +74,7 @@ Requires:  python%{pyver}-testrepository
 Summary:    Python OVSDB Application Library documentation
 
 BuildRequires: python%{pyver}-sphinx
+BuildRequires: python%{pyver}-sphinxcontrib-rsvgconverter
 BuildRequires: python%{pyver}-openstackdocstheme
 
 %description -n python-%{library}-doc
@@ -97,7 +98,7 @@ This package contains the documentation.
 
 %if 0%{?with_doc}
 # generate html docs
-%{pyver_bin} setup.py build_sphinx
+sphinx-build-%{pyver} -b html doc/source doc/build/html
 # remove the sphinx-build-%{pyver} leftovers
 rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
