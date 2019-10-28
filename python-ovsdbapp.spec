@@ -18,7 +18,7 @@ Python OVSDB Application Library tests. \
 This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
-Version:    0.12.4
+Version:    0.12.5
 Release:    1%{?dist}
 Summary:    Python OVSDB Application Library
 License:    ASL 2.0
@@ -187,6 +187,9 @@ OS_TEST_PATH=./ovsdbapp/tests/unit stestr-2 run
 %endif # with_python3
 
 %changelog
+* Mon Oct 28 2019 RDO <dev@lists.rdoproject.org> 0.12.5-1
+- Update to 0.12.5
+
 * Mon Jun 17 2019 RDO <dev@lists.rdoproject.org> 0.12.4-1
 - Update to 0.12.4
 
