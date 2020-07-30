@@ -96,8 +96,7 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %{py3_install}
 
 %check
-#FIXME(jcapitao): ignore unit tests until https://bugs.launchpad.net/ovsdbapp/+bug/1875678 is fixed
-PYTHON=%{__python3} OS_TEST_PATH=./ovsdbapp/tests/unit stestr run || true
+PYTHON=%{__python3} OS_TEST_PATH=./ovsdbapp/tests/unit stestr run
 
 %files -n python3-%{library}
 %doc README.rst
