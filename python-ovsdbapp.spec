@@ -30,7 +30,6 @@ Summary:    Python OVSDB Application Library
 %{?python_provide:%python_provide python3-%{library}}
 Requires:   python3-openvswitch
 Requires:   python3-pbr
-Requires:   python3-six
 Requires:   python3-netaddr >= 0.7.18
 
 BuildRequires:  python3-devel
