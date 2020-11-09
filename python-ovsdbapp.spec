@@ -14,8 +14,8 @@ Python OVSDB Application Library tests. \
 This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
-Version:    1.5.0
-Release:    2%{?dist}
+Version:    1.6.0
+Release:    1%{?dist}
 Summary:    Python OVSDB Application Library
 License:    ASL 2.0
 URL:        http://launchpad.net/%{library}/
@@ -130,6 +130,9 @@ PYTHON=%{__python3} OS_TEST_PATH=./ovsdbapp/tests/unit stestr run
 %endif
 
 %changelog
+* Mon Nov 09 2020 RDO <dev@lists.rdoproject.org> 1.6.0-1
+- Update to 1.6.0
+
 * Wed Oct 21 2020 Joel Capitao <jcapitao@redhat.com> 1.5.0-2
 - Enable sources tarball validation using GPG signature.
 
