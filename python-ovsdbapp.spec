@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x4c29ff0e437f3351fd82bdf47c5a3bc787dc7035
+%global sources_gpg_sign 0xa63ea142678138d1bb15f2e303bdfd64dd164087
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 %global library ovsdbapp
@@ -14,7 +14,7 @@ Python OVSDB Application Library tests. \
 This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
-Version:    1.12.0
+Version:    1.12.1
 Release:    1%{?dist}
 Summary:    Python OVSDB Application Library
 License:    ASL 2.0
@@ -130,6 +130,9 @@ PYTHON=%{__python3} OS_TEST_PATH=./ovsdbapp/tests/unit stestr run
 %endif
 
 %changelog
+* Mon Apr 25 2022 RDO <dev@lists.rdoproject.org> 1.12.1-1
+- Update to 1.12.1
+
 * Thu Sep 09 2021 RDO <dev@lists.rdoproject.org> 1.12.0-1
 - Update to 1.12.0
 
