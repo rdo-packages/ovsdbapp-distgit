@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6d791ec3_75c063f1",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-05-03T07:44:15Z",
+      "side": 1,
+      "message": "It\u0027s needed to unblock https://review.rdoproject.org/r/c/rdoinfo/+/48425",
+      "revId": "f45e81af894365fdd55a7c538d201596cc6d9e27",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
