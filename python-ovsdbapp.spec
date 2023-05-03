@@ -53,6 +53,7 @@ BuildRequires:  python3-oslotest
 BuildRequires:  python3-stestr
 BuildRequires:  python3-netaddr >= 0.7.18
 BuildRequires:  python3-testrepository
+BuildRequires:  python3-testscenarios
 
 %description -n python3-%{library}
 %{common_desc}
