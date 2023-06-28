@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b036e80a_c49068a7",
+        "filename": "python-ovsdbapp.spec",
+        "patchSetId": 5
+      },
+      "lineNbr": 43,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-06-28T15:52:11Z",
+      "side": 0,
+      "message": "probably we need to maintain this so that we keep using rdo-openvswitch wrapper which fetches openstack-network-scripts-openvswitch. See the deps we are losing:\n\nhttps://logserver.rdoproject.org/35/49035/5/check/DLRN-rpmbuild-centos9-compare-deps/c5c2a57/job-output.txt",
+      "range": {
+        "startLine": 43,
+        "startChar": 0,
+        "endLine": 43,
+        "endChar": 5
+      },
+      "revId": "f45e81af894365fdd55a7c538d201596cc6d9e27",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
