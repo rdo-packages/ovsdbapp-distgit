@@ -16,6 +16,23 @@
       "message": "We are losing deps\n\n",
       "revId": "a63138fbddb7a06b61779f1530928fe9fdd0f7dd",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0533def7_dd5465b7",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 128
+      },
+      "writtenOn": "2023-06-28T15:53:43Z",
+      "side": 1,
+      "message": "also, we are adding some syntax check tools which we don\u0027t use and i think we can get rid of:\n\nhttps://logserver.rdoproject.org/35/49035/5/check/DLRN-rpmbuild-centos9-compare-builddeps/76050dc/job-output.txt",
+      "revId": "a63138fbddb7a06b61779f1530928fe9fdd0f7dd",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
