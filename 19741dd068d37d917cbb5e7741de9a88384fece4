@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "07e13e87_f9677210",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 8
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2023-06-30T08:10:17Z",
+      "side": 1,
+      "message": "Without doc https://review.rdoproject.org/r/c/openstack/ovsdbapp-distgit/+/49105",
+      "revId": "19741dd068d37d917cbb5e7741de9a88384fece4",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
