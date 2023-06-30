@@ -10,7 +10,7 @@
 
 %global library ovsdbapp
 %global module ovsdbapp
-%global with_doc 1
+%global with_doc 0
 
 %global common_desc \
 A library for writing Open vSwitch OVSDB-based applications.
