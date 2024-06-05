@@ -1,5 +1,5 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x815AFEC729392386480E076DCC0DFE2D21C023C9
+%global sources_gpg_sign 0xf8675126e2411e7748dd46662fc2093e4682645f
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 # we are excluding some BRs from automatic generator
 %global excluded_brs doc8 bandit pre-commit hacking flake8-import-order isort
@@ -20,7 +20,7 @@ Python OVSDB Application Library tests. \
 This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
-Version:    2.4.1
+Version:    2.4.2
 Release:    1%{?dist}
 Summary:    Python OVSDB Application Library
 License:    Apache-2.0
@@ -143,6 +143,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Wed Jun 05 2024 RDO <dev@lists.rdoproject.org> 2.4.2-1
+- Update to 2.4.2
+
 * Fri Sep 01 2023 RDO <dev@lists.rdoproject.org> 2.4.1-1
 - Update to 2.4.1
 
