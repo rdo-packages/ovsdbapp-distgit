@@ -33,12 +33,6 @@ Source101:        http://tarballs.openstack.org/%{library}/%{library}-%{upstream
 Source102:        https://releases.openstack.org/_static/%{sources_gpg_sign}.txt
 %endif
 
-# Revert https://review.opendev.org/c/openstack/ovsdbapp/+/918970 as CentOS 9 comes with netaddr 0.8
-# and that patch is only to support newer versions.
-%if %{lua:print(rpm.vercmp(rpm.expand("%{version}"), '2.8.0'));} >= 0
-Patch0:           0001-Revert-Improve-compatibility-with-netaddr-1.x.patch
-%endif
-
 BuildArch:  noarch
 
 # Required for tarball sources verification
