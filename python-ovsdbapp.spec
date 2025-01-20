@@ -58,7 +58,6 @@ Requires:       python3-openvswitch
 Summary:   Python OVSDB Application Library Tests
 Requires:  python3-%{library} = %{version}-%{release}
 Requires:  python3-fixtures
-Requires:  python3-mock
 Requires:  python3-oslotest
 Requires:  python3-testrepository
 
