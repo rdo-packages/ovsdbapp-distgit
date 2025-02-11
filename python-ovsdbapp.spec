@@ -21,7 +21,7 @@ This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
 Version:    2.8.0
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Python OVSDB Application Library
 License:    Apache-2.0
 URL:        http://launchpad.net/%{library}/
@@ -60,7 +60,6 @@ Requires:  python3-%{library} = %{version}-%{release}
 Requires:  python3-fixtures
 Requires:  python3-mock
 Requires:  python3-oslotest
-Requires:  python3-testrepository
 
 %description -n python3-%{library}-tests
 %{common_desc_tests}
@@ -143,6 +142,9 @@ rm -rf doc/build/html/.{doctrees,buildinfo}
 %endif
 
 %changelog
+* Thu Feb 11 2025 Jakub Libosvar <jakub.libosvar@gmail.com> 2.8.0-2
+- Remove dependency on testrepository package
+
 * Wed Sep 18 2024 RDO <dev@lists.rdoproject.org> 2.8.0-1
 - Update to 2.8.0
 
