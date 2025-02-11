@@ -64,7 +64,6 @@ Requires:  python3-%{library} = %{version}-%{release}
 Requires:  python3-fixtures
 Requires:  python3-mock
 Requires:  python3-oslotest
-Requires:  python3-testrepository
 
 %description -n python3-%{library}-tests
 %{common_desc_tests}
