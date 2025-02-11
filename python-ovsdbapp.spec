@@ -15,7 +15,7 @@ This package contains Python OVSDB Application Library test files.
 
 Name:       python-%{library}
 Version:    1.9.4
-Release:    1%{?dist}
+Release:    2%{?dist}
 Summary:    Python OVSDB Application Library
 License:    ASL 2.0
 URL:        http://launchpad.net/%{library}/
@@ -64,7 +64,6 @@ Requires:  python3-%{library} = %{version}-%{release}
 Requires:  python3-fixtures
 Requires:  python3-mock
 Requires:  python3-oslotest
-Requires:  python3-testrepository
 
 %description -n python3-%{library}-tests
 %{common_desc_tests}
@@ -130,6 +129,9 @@ PYTHON=%{__python3} OS_TEST_PATH=./ovsdbapp/tests/unit stestr run
 %endif
 
 %changelog
+* Tue Apr 29 2025 Jakub Libosvar <jakub.libosvar@gmail.com> 1.9.4-2
+- Remove dependency on testrepository package
+
 * Tue Nov 08 2022 RDO <dev@lists.rdoproject.org> 1.9.4-1
 - Update to 1.9.4
 
