@@ -16,6 +16,24 @@
       "message": "Could you also bump the release and a changelog entry please ?",
       "revId": "2b64d9fe861c41251199c3ba6f7fa77696520f68",
       "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "66055b15_f04fc799",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 172
+      },
+      "writtenOn": "2025-02-13T18:30:28Z",
+      "side": 1,
+      "message": "Yes :) thanks!",
+      "parentUuid": "77ecd66b_bd5ee9d4",
+      "revId": "2b64d9fe861c41251199c3ba6f7fa77696520f68",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
     }
   ]
 }
