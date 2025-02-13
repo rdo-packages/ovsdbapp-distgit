@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5a634eda_70b08e31",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 635
+      },
+      "writtenOn": "2025-02-13T07:03:48Z",
+      "side": 1,
+      "message": "Could you also bump the release and a changelog entry please ?",
+      "revId": "2b8020281d81a1af839be5057e080f260d1ab40f",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7"
+    }
+  ]
+}
