@@ -1,0 +1,8 @@
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+2: Terry Wilson <terry@logivox.net>
+Workflow+1: Jakub Libosvar <jakub.libosvar@gmail.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Tue, 29 Apr 2025 15:42:44 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/ovsdbapp-distgit/+/57515
+Project: openstack/ovsdbapp-distgit
+Branch: refs/heads/wallaby-rdo
