@@ -52,6 +52,7 @@ BuildRequires:  python3-openvswitch
 BuildRequires:  python3-oslotest
 BuildRequires:  python3-stestr
 BuildRequires:  python3-netaddr >= 0.7.18
+BuildRequires:  python3-testscenarios
 
 %description -n python3-%{library}
 %{common_desc}
@@ -63,6 +64,7 @@ Requires:  python3-%{library} = %{version}-%{release}
 Requires:  python3-fixtures
 Requires:  python3-mock
 Requires:  python3-oslotest
+Requires:  python3-testscenarios
 
 %description -n python3-%{library}-tests
 %{common_desc_tests}
