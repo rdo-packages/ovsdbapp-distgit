@@ -1,0 +1,10 @@
+Code-Review+2: Miguel Garcia <migarcia@redhat.com>
+Code-Review+1: Rodolfo Alonso <ralonsoh@redhat.com>
+Verified+2: Zuul CI <zuul@review.rdoproject.org>
+Code-Review+1: Enrique Vallespi Gil <evallesp@redhat.com>
+Workflow+1: Miguel Garcia <migarcia@redhat.com>
+Submitted-by: Zuul CI <zuul@review.rdoproject.org>
+Submitted-at: Mon, 05 Oct 2026 11:41:15 +0000
+Reviewed-on: https://review.rdoproject.org/r/c/openstack/ovsdbapp-distgit/+/59057
+Project: openstack/ovsdbapp-distgit
+Branch: refs/heads/antelope-rdo
